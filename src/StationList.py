@@ -1,5 +1,5 @@
 class StationList:
-    station_indices_dict = {}
+    station_indices_dict = {} 
 
     def __init__(self, template, station_list, station_name=None):
         self.template = template
@@ -12,20 +12,29 @@ class StationList:
         #hard to do since the station list headers do not match the template names
         #create another file? extend to a previous file?
 
+        #just precode it likely not to change 
+        # round the station height to the nearest whole number 
+        # elevation vs baramoeter elevation
+
     def find_station_row(self):
-        for num in range(1,self.station_list.value_counts()):
-            if self.station_name == self.station_list.loc[num, 1]:
+        print(len(self.station_list.value_counts()))
+        num = 0;
+        while (self.station_list.iloc[num, 1] is not None):
+            if self.station_name == self.station_list.iloc[num, 1]:
                 return num   
+            num+=1
         return -1
     
     def fill_station_data(self):
         self.template.at[5, 1] = "CANADA"
         self.template.at[6, 1] = self.station_name
-        wmo
+        
+        wmo = ""
         row = self.find_station_row()
         for key, value in StationList.station_indices_dict.items():
             if value.size() != 0: #later add if the station does not exist
                 value = self.station_list.loc[row, StationList.station_indices_dict[key][0]]
+                print(value)
                 if (key == "Latitude" or key == "Longitude"):
                     translation_table = str.maketrans({"'": "|", '"': "|", "°": "|"})
                     value = value.translate(translation_table)

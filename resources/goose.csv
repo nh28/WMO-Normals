@@ -1,0 +1,554 @@
+﻿STN_ID,ENG_STN_NAME,NORMAL_ID,ENG_ELEMENTNAME,MONTH,VALUE,FIRST_OCCURRENCE_DATE,OCCURRENCE_COUNT,PUBLICATION_CODE,NORMAL_CODE,YEAR_COUNT_NORMAL_PERIOD,MAX_DURATION_MISSING_YEARS,FIRST_YEAR_NORMAL_PERIOD,LAST_YEAR_NORMAL_PERIOD,FIRST_YEAR,LAST_YEAR,TOTAL_OBS_COUNT,PERCENT_OF_POSSIBLE_OBS,DATE_CALCULATED,NORMAL_PERIOD_ID
+1000000,GOOSE A,1,Mean daily temperature deg C,1,-17,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,1,Mean daily temperature deg C,2,-16,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,1,Mean daily temperature deg C,3,-9.5,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,1,Mean daily temperature deg C,4,-1.4,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,1,Mean daily temperature deg C,5,5.6,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,1,Mean daily temperature deg C,6,11.7,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,1,Mean daily temperature deg C,7,15.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,1,Mean daily temperature deg C,8,15.6,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,1,Mean daily temperature deg C,9,10.3,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,1,Mean daily temperature deg C,10,3.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,1,Mean daily temperature deg C,11,-3.6,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,1,Mean daily temperature deg C,12,-11.5,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,1,Mean daily temperature deg C,13,0.3,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4
+1000000,GOOSE A,3,Extreme minimium daily mean temperature deg C,1,-31.1,1/2/2014,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,3,Extreme minimium daily mean temperature deg C,2,-31.9,2/7/2015,1,1,,,,,,1991,2020,848,100,1/12/2024,1
+1000000,GOOSE A,3,Extreme minimium daily mean temperature deg C,3,-24.8,3/6/1995,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,3,Extreme minimium daily mean temperature deg C,4,-18.2,4/1/1994,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,3,Extreme minimium daily mean temperature deg C,5,-5.7,5/9/1993,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,3,Extreme minimium daily mean temperature deg C,6,1,6/4/1992,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,3,Extreme minimium daily mean temperature deg C,7,3.7,7/1/1991,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,3,Extreme minimium daily mean temperature deg C,8,5.3,8/28/1993,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,3,Extreme minimium daily mean temperature deg C,9,1.3,9/30/2000,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,3,Extreme minimium daily mean temperature deg C,10,-6.4,10/31/2020,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,3,Extreme minimium daily mean temperature deg C,11,-18,11/30/2015,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,3,Extreme minimium daily mean temperature deg C,12,-29,12/30/1993,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,3,Extreme minimium daily mean temperature deg C,13,-31.9,2/7/2015,1,1,,,,,,1991,2020,10958,100,1/12/2024,1
+1000000,GOOSE A,4,Extreme maximum daily mean temperature deg C,1,2.3,1/5/2007,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,4,Extreme maximum daily mean temperature deg C,2,5.2,2/28/2000,1,1,,,,,,1991,2020,848,100,1/12/2024,1
+1000000,GOOSE A,4,Extreme maximum daily mean temperature deg C,3,7.3,3/28/1999,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,4,Extreme maximum daily mean temperature deg C,4,11.7,4/29/2013,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,4,Extreme maximum daily mean temperature deg C,5,24.7,5/25/2012,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,4,Extreme maximum daily mean temperature deg C,6,28.4,6/25/1999,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,4,Extreme maximum daily mean temperature deg C,7,27.1,7/1/2002,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,4,Extreme maximum daily mean temperature deg C,8,28.1,8/8/1996,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,4,Extreme maximum daily mean temperature deg C,9,26.9,9/3/2008,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,4,Extreme maximum daily mean temperature deg C,10,19,10/26/2017,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,4,Extreme maximum daily mean temperature deg C,11,13.2,11/10/1996,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,4,Extreme maximum daily mean temperature deg C,12,8,12/26/2020,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,4,Extreme maximum daily mean temperature deg C,13,28.4,6/25/1999,1,1,,,,,,1991,2020,10958,100,1/12/2024,1
+1000000,GOOSE A,5,Mean daily max temperature deg C,1,-12.3,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,5,Mean daily max temperature deg C,2,-10.4,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,5,Mean daily max temperature deg C,3,-3.6,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,5,Mean daily max temperature deg C,4,3.6,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,5,Mean daily max temperature deg C,5,11,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,5,Mean daily max temperature deg C,6,17.3,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,5,Mean daily max temperature deg C,7,21.2,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,5,Mean daily max temperature deg C,8,20.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,5,Mean daily max temperature deg C,9,15.3,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,5,Mean daily max temperature deg C,10,7.5,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,5,Mean daily max temperature deg C,11,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,5,Mean daily max temperature deg C,12,-7.3,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,5,Mean daily max temperature deg C,13,5.2,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4
+1000000,GOOSE A,6,Extreme maximum daily max temperature deg C,1,11.1,1/20/1996,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,6,Extreme maximum daily max temperature deg C,2,10.3,2/28/2000,1,1,,,,,,1991,2020,848,100,1/12/2024,1
+1000000,GOOSE A,6,Extreme maximum daily max temperature deg C,3,14.5,3/30/2004,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,6,Extreme maximum daily max temperature deg C,4,21.7,4/30/2013,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,6,Extreme maximum daily max temperature deg C,5,32.7,5/25/2012,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,6,Extreme maximum daily max temperature deg C,6,35.3,6/25/1999,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,6,Extreme maximum daily max temperature deg C,7,36.1,7/1/2002,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,6,Extreme maximum daily max temperature deg C,8,35.3,8/8/1996,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,6,Extreme maximum daily max temperature deg C,9,33.6,9/3/2008,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,6,Extreme maximum daily max temperature deg C,10,21.6,10/13/2016,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,6,Extreme maximum daily max temperature deg C,11,17.4,11/16/2008,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,6,Extreme maximum daily max temperature deg C,12,9.9,12/6/2010,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,6,Extreme maximum daily max temperature deg C,13,36.1,7/1/2002,1,1,,,,,,1991,2020,10958,100,1/12/2024,1
+1000000,GOOSE A,8,Mean daily min temperature deg C,1,-21.7,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,8,Mean daily min temperature deg C,2,-21.5,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,8,Mean daily min temperature deg C,3,-15.3,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,8,Mean daily min temperature deg C,4,-6.4,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,8,Mean daily min temperature deg C,5,0.1,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,8,Mean daily min temperature deg C,6,6.1,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,8,Mean daily min temperature deg C,7,10.4,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,8,Mean daily min temperature deg C,8,10.2,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,8,Mean daily min temperature deg C,9,5.3,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,8,Mean daily min temperature deg C,10,0.1,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,8,Mean daily min temperature deg C,11,-7.2,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,8,Mean daily min temperature deg C,12,-15.7,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,8,Mean daily min temperature deg C,13,-4.6,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4
+1000000,GOOSE A,9,Extreme minimum daily min temperature deg C,1,-35.3,1/30/1991,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,9,Extreme minimum daily min temperature deg C,2,-36.3,2/7/2015,1,1,,,,,,1991,2020,848,100,1/12/2024,1
+1000000,GOOSE A,9,Extreme minimum daily min temperature deg C,3,-33,3/5/1993,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,9,Extreme minimum daily min temperature deg C,4,-23.4,4/1/1994,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,9,Extreme minimum daily min temperature deg C,5,-11.5,5/11/1993,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,9,Extreme minimum daily min temperature deg C,6,-2.9,6/4/2018,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,9,Extreme minimum daily min temperature deg C,7,0.1,7/5/1993,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,9,Extreme minimum daily min temperature deg C,8,0.5,8/28/1991,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,9,Extreme minimum daily min temperature deg C,9,-3.5,9/19/2018,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,9,Extreme minimum daily min temperature deg C,10,-11.2,10/31/2020,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,9,Extreme minimum daily min temperature deg C,11,-23.6,11/20/2018,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,9,Extreme minimum daily min temperature deg C,12,-34.3,12/22/2008,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,9,Extreme minimum daily min temperature deg C,13,-36.3,2/7/2015,1,1,,,,,,1991,2020,10958,100,1/12/2024,1
+1000000,GOOSE A,33,Days with daily max temperature LE 0 deg C,1,28.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,33,Days with daily max temperature LE 0 deg C,2,26.1,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,33,Days with daily max temperature LE 0 deg C,3,21.4,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,33,Days with daily max temperature LE 0 deg C,4,7,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,33,Days with daily max temperature LE 0 deg C,5,0.1,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,33,Days with daily max temperature LE 0 deg C,6,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,33,Days with daily max temperature LE 0 deg C,7,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,33,Days with daily max temperature LE 0 deg C,8,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,33,Days with daily max temperature LE 0 deg C,9,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,33,Days with daily max temperature LE 0 deg C,10,1.1,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,33,Days with daily max temperature LE 0 deg C,11,14.8,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,33,Days with daily max temperature LE 0 deg C,12,26.2,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,33,Days with daily max temperature LE 0 deg C,13,125.5,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4
+1000000,GOOSE A,41,Days with daily min temperature LE 0 deg C,1,30.9,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,41,Days with daily min temperature LE 0 deg C,2,28.1,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,41,Days with daily min temperature LE 0 deg C,3,30.5,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,41,Days with daily min temperature LE 0 deg C,4,26.1,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,41,Days with daily min temperature LE 0 deg C,5,14.3,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,41,Days with daily min temperature LE 0 deg C,6,1.7,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,41,Days with daily min temperature LE 0 deg C,7,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,41,Days with daily min temperature LE 0 deg C,8,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,41,Days with daily min temperature LE 0 deg C,9,2.1,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,41,Days with daily min temperature LE 0 deg C,10,14.3,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,41,Days with daily min temperature LE 0 deg C,11,27.1,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,41,Days with daily min temperature LE 0 deg C,12,30.3,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,41,Days with daily min temperature LE 0 deg C,13,205.4,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4
+1000000,GOOSE A,56,Total precipitation mm,1,66.7,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,56,Total precipitation mm,2,55.9,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,56,Total precipitation mm,3,63.9,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,56,Total precipitation mm,4,63.2,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,56,Total precipitation mm,5,69.9,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,56,Total precipitation mm,6,87.7,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,56,Total precipitation mm,7,111.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,56,Total precipitation mm,8,107.2,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,56,Total precipitation mm,9,86,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,56,Total precipitation mm,10,88.1,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,56,Total precipitation mm,11,74.8,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,56,Total precipitation mm,12,62.6,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,56,Total precipitation mm,13,937.8,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4
+1000000,GOOSE A,60,Extreme daily precipitation mm,1,64.5,1/15/2006,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,60,Extreme daily precipitation mm,2,38.6,2/12/2012,1,1,,,,,,1991,2020,848,100,1/12/2024,1
+1000000,GOOSE A,60,Extreme daily precipitation mm,3,29.4,3/14/1993,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,60,Extreme daily precipitation mm,4,38,4/24/2012,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,60,Extreme daily precipitation mm,5,30.2,5/22/2008,2,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,60,Extreme daily precipitation mm,6,47,6/14/2016,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,60,Extreme daily precipitation mm,7,42.6,7/22/2018,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,60,Extreme daily precipitation mm,8,45.8,8/22/2019,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,60,Extreme daily precipitation mm,9,68,9/23/1999,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,60,Extreme daily precipitation mm,10,50.2,10/20/2014,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,60,Extreme daily precipitation mm,11,57.2,11/2/2020,1,1,,,,,,1991,2020,900,100,1/12/2024,1
+1000000,GOOSE A,60,Extreme daily precipitation mm,12,42.2,12/8/2011,1,1,,,,,,1991,2020,930,100,1/12/2024,1
+1000000,GOOSE A,60,Extreme daily precipitation mm,13,68,9/23/1999,1,1,,,,,,1991,2020,10958,100,1/12/2024,1
+1000000,GOOSE A,70,Days with precipitation GE 5 mm,1,4.5,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,70,Days with precipitation GE 5 mm,2,3.7,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,70,Days with precipitation GE 5 mm,3,4.4,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,70,Days with precipitation GE 5 mm,4,4.4,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,70,Days with precipitation GE 5 mm,5,5.2,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,70,Days with precipitation GE 5 mm,6,5.5,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,70,Days with precipitation GE 5 mm,7,7.3,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,70,Days with precipitation GE 5 mm,8,6.5,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,70,Days with precipitation GE 5 mm,9,4.6,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,70,Days with precipitation GE 5 mm,10,5.7,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,70,Days with precipitation GE 5 mm,11,4.9,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,70,Days with precipitation GE 5 mm,12,4.3,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,70,Days with precipitation GE 5 mm,13,61,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4
+1000000,GOOSE A,71,Days with precipitation GE 10 mm,1,1.9,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,71,Days with precipitation GE 10 mm,2,1.7,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,71,Days with precipitation GE 10 mm,3,1.9,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,71,Days with precipitation GE 10 mm,4,1.8,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,71,Days with precipitation GE 10 mm,5,2.2,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,71,Days with precipitation GE 10 mm,6,2.7,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,71,Days with precipitation GE 10 mm,7,3.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,71,Days with precipitation GE 10 mm,8,3.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,71,Days with precipitation GE 10 mm,9,2.7,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,71,Days with precipitation GE 10 mm,10,2.9,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,71,Days with precipitation GE 10 mm,11,2.4,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,71,Days with precipitation GE 10 mm,12,2.1,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,71,Days with precipitation GE 10 mm,13,29.9,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4
+1000000,GOOSE A,84,Days with thunderstorms,1,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,84,Days with thunderstorms,2,0,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,84,Days with thunderstorms,3,0,,,1,A,30,0,1991,2020,,,928,99.78,1/12/2024,4
+1000000,GOOSE A,84,Days with thunderstorms,4,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,84,Days with thunderstorms,5,0.1,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,84,Days with thunderstorms,6,1.5,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,84,Days with thunderstorms,7,3.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,84,Days with thunderstorms,8,2.7,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,84,Days with thunderstorms,9,0.2,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,84,Days with thunderstorms,10,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,84,Days with thunderstorms,11,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,84,Days with thunderstorms,12,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,84,Days with thunderstorms,13,8.3,,,1,A,30,0,1991,2020,,,10956,99.98,1/12/2024,4
+1000000,GOOSE A,85,Days with hail,1,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,85,Days with hail,2,0,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,85,Days with hail,3,0,,,1,A,30,0,1991,2020,,,928,99.78,1/12/2024,4
+1000000,GOOSE A,85,Days with hail,4,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,85,Days with hail,5,0.1,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,85,Days with hail,6,0.1,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,85,Days with hail,7,0.1,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,85,Days with hail,8,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,85,Days with hail,9,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,85,Days with hail,10,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,85,Days with hail,11,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,85,Days with hail,12,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,85,Days with hail,13,0.3,,,1,A,30,0,1991,2020,,,10956,99.98,1/12/2024,4
+1000000,GOOSE A,94,Extreme of daily max gust m/s,1,28.9,1/14/2013,1,1,,,,,,1991,2020,899,96.67,1/12/2024,1
+1000000,GOOSE A,94,Extreme of daily max gust m/s,2,27.2,2/18/2013,1,1,,,,,,1991,2020,826,97.41,1/12/2024,1
+1000000,GOOSE A,94,Extreme of daily max gust m/s,3,29.4,3/22/2013,1,1,,,,,,1991,2020,901,96.88,1/12/2024,1
+1000000,GOOSE A,94,Extreme of daily max gust m/s,4,23.6,4/8/2007,1,1,,,,,,1991,2020,874,97.11,1/12/2024,1
+1000000,GOOSE A,94,Extreme of daily max gust m/s,5,23.1,5/8/2018,2,1,,,,,,1991,2020,899,96.67,1/12/2024,1
+1000000,GOOSE A,94,Extreme of daily max gust m/s,6,24.7,6/29/1996,1,1,,,,,,1991,2020,875,97.22,1/12/2024,1
+1000000,GOOSE A,94,Extreme of daily max gust m/s,7,26.7,7/10/2014,1,1,,,,,,1991,2020,901,96.88,1/12/2024,1
+1000000,GOOSE A,94,Extreme of daily max gust m/s,8,30.8,8/21/2012,1,1,,,,,,1991,2020,893,96.02,1/12/2024,1
+1000000,GOOSE A,94,Extreme of daily max gust m/s,9,32.5,9/20/2007,1,1,,,,,,1991,2020,871,96.78,1/12/2024,1
+1000000,GOOSE A,94,Extreme of daily max gust m/s,10,27.8,10/12/2012,1,1,,,,,,1991,2020,887,95.38,1/12/2024,1
+1000000,GOOSE A,94,Extreme of daily max gust m/s,11,27.8,11/7/2015,2,1,,,,,,1991,2020,858,95.33,1/12/2024,1
+1000000,GOOSE A,94,Extreme of daily max gust m/s,12,26.4,12/21/1996,1,1,,,,,,1991,2020,881,94.73,1/12/2024,1
+1000000,GOOSE A,94,Extreme of daily max gust m/s,13,32.5,9/20/2007,1,1,,,,,,1991,2020,10565,96.42,1/12/2024,1
+1000000,GOOSE A,114,Mean of hourly vapour pressure hPa,1,1.5,,,1,A,30,0,1991,2020,,,22294,99.88,1/12/2024,4
+1000000,GOOSE A,114,Mean of hourly vapour pressure hPa,2,1.5,,,1,A,30,0,1991,2020,,,20337,99.93,1/12/2024,4
+1000000,GOOSE A,114,Mean of hourly vapour pressure hPa,3,2.4,,,1,A,30,0,1991,2020,,,22293,99.88,1/12/2024,4
+1000000,GOOSE A,114,Mean of hourly vapour pressure hPa,4,3.9,,,1,A,30,0,1991,2020,,,21593,99.97,1/12/2024,4
+1000000,GOOSE A,114,Mean of hourly vapour pressure hPa,5,5.9,,,1,A,30,0,1991,2020,,,22314,99.97,1/12/2024,4
+1000000,GOOSE A,114,Mean of hourly vapour pressure hPa,6,9.2,,,1,A,30,0,1991,2020,,,21588,99.94,1/12/2024,4
+1000000,GOOSE A,114,Mean of hourly vapour pressure hPa,7,12.4,,,1,A,30,0,1991,2020,,,22285,99.84,1/12/2024,4
+1000000,GOOSE A,114,Mean of hourly vapour pressure hPa,8,12.3,,,1,A,30,0,1991,2020,,,22218,99.54,1/12/2024,4
+1000000,GOOSE A,114,Mean of hourly vapour pressure hPa,9,9.1,,,1,A,30,0,1991,2020,,,21593,99.97,1/12/2024,4
+1000000,GOOSE A,114,Mean of hourly vapour pressure hPa,10,6.2,,,1,A,30,0,1991,2020,,,22290,99.87,1/12/2024,4
+1000000,GOOSE A,114,Mean of hourly vapour pressure hPa,11,4,,,1,A,30,0,1991,2020,,,21579,99.9,1/12/2024,4
+1000000,GOOSE A,114,Mean of hourly vapour pressure hPa,12,2.4,,,1,A,30,0,1991,2020,,,22293,99.88,1/12/2024,4
+1000000,GOOSE A,114,Mean of hourly vapour pressure hPa,13,5.9,,,1,A,30,0,1991,2020,,,262677,99.88,1/12/2024,4
+1000000,GOOSE A,115,Mean of hourly station pressure hPa,1,1002.8,,,1,A,30,0,1991,2020,,,22299,99.91,1/12/2024,4
+1000000,GOOSE A,115,Mean of hourly station pressure hPa,2,1004,,,1,A,30,0,1991,2020,,,20338,99.93,1/12/2024,4
+1000000,GOOSE A,115,Mean of hourly station pressure hPa,3,1006.8,,,1,A,30,0,1991,2020,,,22292,99.87,1/12/2024,4
+1000000,GOOSE A,115,Mean of hourly station pressure hPa,4,1007.3,,,1,A,30,0,1991,2020,,,21592,99.96,1/12/2024,4
+1000000,GOOSE A,115,Mean of hourly station pressure hPa,5,1008.1,,,1,A,30,0,1991,2020,,,22307,99.94,1/12/2024,4
+1000000,GOOSE A,115,Mean of hourly station pressure hPa,6,1005.3,,,1,A,30,0,1991,2020,,,21590,99.95,1/12/2024,4
+1000000,GOOSE A,115,Mean of hourly station pressure hPa,7,1003.7,,,1,A,30,0,1991,2020,,,22285,99.84,1/12/2024,4
+1000000,GOOSE A,115,Mean of hourly station pressure hPa,8,1004.7,,,1,A,30,0,1991,2020,,,22219,99.55,1/12/2024,4
+1000000,GOOSE A,115,Mean of hourly station pressure hPa,9,1005.6,,,1,A,30,0,1991,2020,,,21591,99.96,1/12/2024,4
+1000000,GOOSE A,115,Mean of hourly station pressure hPa,10,1006.2,,,1,A,30,0,1991,2020,,,22290,99.87,1/12/2024,4
+1000000,GOOSE A,115,Mean of hourly station pressure hPa,11,1005.6,,,1,A,30,0,1991,2020,,,21579,99.9,1/12/2024,4
+1000000,GOOSE A,115,Mean of hourly station pressure hPa,12,1004.6,,,1,A,30,0,1991,2020,,,22295,99.89,1/12/2024,4
+1000000,GOOSE A,115,Mean of hourly station pressure hPa,13,1005.4,,,1,A,30,0,1991,2020,,,262677,99.88,1/12/2024,4
+1000000,GOOSE A,124,Mean of hourly mean sea level pressure hPa,1,1009.2,,,1,A,30,0,1991,2020,,,22298,99.9,1/12/2024,4
+1000000,GOOSE A,124,Mean of hourly mean sea level pressure hPa,2,1010.4,,,1,A,30,0,1991,2020,,,20339,99.94,1/12/2024,4
+1000000,GOOSE A,124,Mean of hourly mean sea level pressure hPa,3,1013.1,,,1,A,30,0,1991,2020,,,22291,99.87,1/12/2024,4
+1000000,GOOSE A,124,Mean of hourly mean sea level pressure hPa,4,1013.4,,,1,A,30,0,1991,2020,,,21592,99.96,1/12/2024,4
+1000000,GOOSE A,124,Mean of hourly mean sea level pressure hPa,5,1014.1,,,1,A,30,0,1991,2020,,,22307,99.94,1/12/2024,4
+1000000,GOOSE A,124,Mean of hourly mean sea level pressure hPa,6,1011.2,,,1,A,30,0,1991,2020,,,21590,99.95,1/12/2024,4
+1000000,GOOSE A,124,Mean of hourly mean sea level pressure hPa,7,1009.6,,,1,A,30,0,1991,2020,,,22285,99.84,1/12/2024,4
+1000000,GOOSE A,124,Mean of hourly mean sea level pressure hPa,8,1010.6,,,1,A,30,0,1991,2020,,,22217,99.54,1/12/2024,4
+1000000,GOOSE A,124,Mean of hourly mean sea level pressure hPa,9,1011.6,,,1,A,30,0,1991,2020,,,21591,99.96,1/12/2024,4
+1000000,GOOSE A,124,Mean of hourly mean sea level pressure hPa,10,1012.3,,,1,A,30,0,1991,2020,,,22288,99.86,1/12/2024,4
+1000000,GOOSE A,124,Mean of hourly mean sea level pressure hPa,11,1011.8,,,1,A,30,0,1991,2020,,,21579,99.9,1/12/2024,4
+1000000,GOOSE A,124,Mean of hourly mean sea level pressure hPa,12,1010.8,,,1,A,30,0,1991,2020,,,22294,99.88,1/12/2024,4
+1000000,GOOSE A,124,Mean of hourly mean sea level pressure hPa,13,1011.5,,,1,A,30,0,1991,2020,,,262671,99.88,1/12/2024,4
+1000000,GOOSE A,169,Mean number of days with maximum temperature >= 25°C,1,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,169,Mean number of days with maximum temperature >= 25°C,2,0,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,169,Mean number of days with maximum temperature >= 25°C,3,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,169,Mean number of days with maximum temperature >= 25°C,4,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,169,Mean number of days with maximum temperature >= 25°C,5,0.6,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,169,Mean number of days with maximum temperature >= 25°C,6,3.4,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,169,Mean number of days with maximum temperature >= 25°C,7,8.2,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,169,Mean number of days with maximum temperature >= 25°C,8,6.6,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,169,Mean number of days with maximum temperature >= 25°C,9,1.2,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,169,Mean number of days with maximum temperature >= 25°C,10,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,169,Mean number of days with maximum temperature >= 25°C,11,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,169,Mean number of days with maximum temperature >= 25°C,12,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,169,Mean number of days with maximum temperature >= 25°C,13,20,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4
+1000000,GOOSE A,170,Mean number of days with maximum temperature >= 40°C,1,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,170,Mean number of days with maximum temperature >= 40°C,2,0,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,170,Mean number of days with maximum temperature >= 40°C,3,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,170,Mean number of days with maximum temperature >= 40°C,4,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,170,Mean number of days with maximum temperature >= 40°C,5,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,170,Mean number of days with maximum temperature >= 40°C,6,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,170,Mean number of days with maximum temperature >= 40°C,7,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,170,Mean number of days with maximum temperature >= 40°C,8,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,170,Mean number of days with maximum temperature >= 40°C,9,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,170,Mean number of days with maximum temperature >= 40°C,10,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,170,Mean number of days with maximum temperature >= 40°C,11,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,170,Mean number of days with maximum temperature >= 40°C,12,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,170,Mean number of days with maximum temperature >= 40°C,13,0,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4
+1000000,GOOSE A,171,Days with precipitation GE 1 mm,1,10,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,171,Days with precipitation GE 1 mm,2,8.4,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,171,Days with precipitation GE 1 mm,3,10.2,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,171,Days with precipitation GE 1 mm,4,10.1,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,171,Days with precipitation GE 1 mm,5,10.5,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,171,Days with precipitation GE 1 mm,6,12.1,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,171,Days with precipitation GE 1 mm,7,13.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,171,Days with precipitation GE 1 mm,8,13,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,171,Days with precipitation GE 1 mm,9,11.7,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,171,Days with precipitation GE 1 mm,10,12.3,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,171,Days with precipitation GE 1 mm,11,9.7,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,171,Days with precipitation GE 1 mm,12,10.3,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,171,Days with precipitation GE 1 mm,13,132.1,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4
+1000000,GOOSE A,172,Mean number of days with daily precipitation >= 50 mm,1,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,172,Mean number of days with daily precipitation >= 50 mm,2,0,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,172,Mean number of days with daily precipitation >= 50 mm,3,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,172,Mean number of days with daily precipitation >= 50 mm,4,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,172,Mean number of days with daily precipitation >= 50 mm,5,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,172,Mean number of days with daily precipitation >= 50 mm,6,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,172,Mean number of days with daily precipitation >= 50 mm,7,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,172,Mean number of days with daily precipitation >= 50 mm,8,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,172,Mean number of days with daily precipitation >= 50 mm,9,0.1,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,172,Mean number of days with daily precipitation >= 50 mm,10,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,172,Mean number of days with daily precipitation >= 50 mm,11,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,172,Mean number of days with daily precipitation >= 50 mm,12,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,172,Mean number of days with daily precipitation >= 50 mm,13,0.1,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4
+1000000,GOOSE A,173,Mean number of days with daily precipitation >= 100 mm,1,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,173,Mean number of days with daily precipitation >= 100 mm,2,0,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,173,Mean number of days with daily precipitation >= 100 mm,3,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,173,Mean number of days with daily precipitation >= 100 mm,4,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,173,Mean number of days with daily precipitation >= 100 mm,5,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,173,Mean number of days with daily precipitation >= 100 mm,6,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,173,Mean number of days with daily precipitation >= 100 mm,7,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,173,Mean number of days with daily precipitation >= 100 mm,8,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,173,Mean number of days with daily precipitation >= 100 mm,9,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,173,Mean number of days with daily precipitation >= 100 mm,10,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,173,Mean number of days with daily precipitation >= 100 mm,11,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,173,Mean number of days with daily precipitation >= 100 mm,12,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,173,Mean number of days with daily precipitation >= 100 mm,13,0,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4
+1000000,GOOSE A,174,Mean number of days with daily precipitation >= 150 mm,1,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,174,Mean number of days with daily precipitation >= 150 mm,2,0,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,174,Mean number of days with daily precipitation >= 150 mm,3,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,174,Mean number of days with daily precipitation >= 150 mm,4,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,174,Mean number of days with daily precipitation >= 150 mm,5,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,174,Mean number of days with daily precipitation >= 150 mm,6,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,174,Mean number of days with daily precipitation >= 150 mm,7,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,174,Mean number of days with daily precipitation >= 150 mm,8,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,174,Mean number of days with daily precipitation >= 150 mm,9,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,174,Mean number of days with daily precipitation >= 150 mm,10,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,174,Mean number of days with daily precipitation >= 150 mm,11,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,174,Mean number of days with daily precipitation >= 150 mm,12,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,174,Mean number of days with daily precipitation >= 150 mm,13,0,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4
+1000000,GOOSE A,175,Mean number of days with snow depth > 0 cm,1,31,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,175,Mean number of days with snow depth > 0 cm,2,28.2,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,175,Mean number of days with snow depth > 0 cm,3,31,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,175,Mean number of days with snow depth > 0 cm,4,29,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,175,Mean number of days with snow depth > 0 cm,5,10.1,,,1,A,28,1,1991,2019,,,868,93.33,1/12/2024,4
+1000000,GOOSE A,175,Mean number of days with snow depth > 0 cm,6,0.1,,,1,A,27,0,1991,2017,,,810,93.1,1/12/2024,4
+1000000,GOOSE A,175,Mean number of days with snow depth > 0 cm,7,0,,,1,A,27,0,1991,2017,,,837,96.43,1/12/2024,4
+1000000,GOOSE A,175,Mean number of days with snow depth > 0 cm,8,0,,,1,A,27,0,1991,2017,,,837,96.43,1/12/2024,4
+1000000,GOOSE A,175,Mean number of days with snow depth > 0 cm,9,0,,,1,A,27,0,1991,2017,,,810,96.43,1/12/2024,4
+1000000,GOOSE A,175,Mean number of days with snow depth > 0 cm,10,3.6,,,1,A,27,0,1991,2017,,,837,90,1/12/2024,4
+1000000,GOOSE A,175,Mean number of days with snow depth > 0 cm,11,20,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,175,Mean number of days with snow depth > 0 cm,12,29.7,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,175,Mean number of days with snow depth > 0 cm,13,182.7,,,1,A,30,1,1991,2020,,,10437,97.14,1/12/2024,4
+1000000,GOOSE A,176,Mean number of days with snow depth > 1 cm,1,31,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,176,Mean number of days with snow depth > 1 cm,2,28,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,176,Mean number of days with snow depth > 1 cm,3,31,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,176,Mean number of days with snow depth > 1 cm,4,29,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,176,Mean number of days with snow depth > 1 cm,5,8.5,,,1,A,28,1,1991,2019,,,868,93.33,1/12/2024,4
+1000000,GOOSE A,176,Mean number of days with snow depth > 1 cm,6,0,,,1,A,27,0,1991,2017,,,810,93.1,1/12/2024,4
+1000000,GOOSE A,176,Mean number of days with snow depth > 1 cm,7,0,,,1,A,27,0,1991,2017,,,837,96.43,1/12/2024,4
+1000000,GOOSE A,176,Mean number of days with snow depth > 1 cm,8,0,,,1,A,27,0,1991,2017,,,837,96.43,1/12/2024,4
+1000000,GOOSE A,176,Mean number of days with snow depth > 1 cm,9,0,,,1,A,27,0,1991,2017,,,810,96.43,1/12/2024,4
+1000000,GOOSE A,176,Mean number of days with snow depth > 1 cm,10,3,,,1,A,27,0,1991,2017,,,837,90,1/12/2024,4
+1000000,GOOSE A,176,Mean number of days with snow depth > 1 cm,11,18.6,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,176,Mean number of days with snow depth > 1 cm,12,29.1,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,176,Mean number of days with snow depth > 1 cm,13,178.2,,,1,A,30,1,1991,2020,,,10437,97.14,1/12/2024,4
+1000000,GOOSE A,177,Mean number of days with snow depth > 10 cm,1,29.1,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,177,Mean number of days with snow depth > 10 cm,2,27.9,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,177,Mean number of days with snow depth > 10 cm,3,31,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,177,Mean number of days with snow depth > 10 cm,4,25.4,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,177,Mean number of days with snow depth > 10 cm,5,3,,,1,A,28,1,1991,2019,,,868,93.33,1/12/2024,4
+1000000,GOOSE A,177,Mean number of days with snow depth > 10 cm,6,0,,,1,A,27,0,1991,2017,,,810,93.1,1/12/2024,4
+1000000,GOOSE A,177,Mean number of days with snow depth > 10 cm,7,0,,,1,A,27,0,1991,2017,,,837,96.43,1/12/2024,4
+1000000,GOOSE A,177,Mean number of days with snow depth > 10 cm,8,0,,,1,A,27,0,1991,2017,,,837,96.43,1/12/2024,4
+1000000,GOOSE A,177,Mean number of days with snow depth > 10 cm,9,0,,,1,A,27,0,1991,2017,,,810,96.43,1/12/2024,4
+1000000,GOOSE A,177,Mean number of days with snow depth > 10 cm,10,0.5,,,1,A,27,0,1991,2017,,,837,90,1/12/2024,4
+1000000,GOOSE A,177,Mean number of days with snow depth > 10 cm,11,11.8,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,177,Mean number of days with snow depth > 10 cm,12,24,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,177,Mean number of days with snow depth > 10 cm,13,152.7,,,1,A,30,1,1991,2020,,,10437,97.14,1/12/2024,4
+1000000,GOOSE A,178,Mean number of days with snow depth > 50 cm,1,14.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,178,Mean number of days with snow depth > 50 cm,2,19,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,178,Mean number of days with snow depth > 50 cm,3,23.4,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,178,Mean number of days with snow depth > 50 cm,4,13,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,178,Mean number of days with snow depth > 50 cm,5,0.2,,,1,A,28,1,1991,2019,,,868,93.33,1/12/2024,4
+1000000,GOOSE A,178,Mean number of days with snow depth > 50 cm,6,0,,,1,A,27,0,1991,2017,,,810,93.1,1/12/2024,4
+1000000,GOOSE A,178,Mean number of days with snow depth > 50 cm,7,0,,,1,A,27,0,1991,2017,,,837,96.43,1/12/2024,4
+1000000,GOOSE A,178,Mean number of days with snow depth > 50 cm,8,0,,,1,A,27,0,1991,2017,,,837,96.43,1/12/2024,4
+1000000,GOOSE A,178,Mean number of days with snow depth > 50 cm,9,0,,,1,A,27,0,1991,2017,,,810,96.43,1/12/2024,4
+1000000,GOOSE A,178,Mean number of days with snow depth > 50 cm,10,0,,,1,A,27,0,1991,2017,,,837,90,1/12/2024,4
+1000000,GOOSE A,178,Mean number of days with snow depth > 50 cm,11,0.9,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,178,Mean number of days with snow depth > 50 cm,12,6,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,178,Mean number of days with snow depth > 50 cm,13,77.3,,,1,A,30,1,1991,2020,,,10437,97.14,1/12/2024,4
+1000000,GOOSE A,179,Mean number of days with wind speed >= 10 m/s,1,8.3,,,1,A,30,0,1991,2020,,,22298,99.9,1/12/2024,4
+1000000,GOOSE A,179,Mean number of days with wind speed >= 10 m/s,2,7.3,,,1,A,30,0,1991,2020,,,20340,99.94,1/12/2024,4
+1000000,GOOSE A,179,Mean number of days with wind speed >= 10 m/s,3,7.2,,,1,A,30,0,1991,2020,,,22298,99.9,1/12/2024,4
+1000000,GOOSE A,179,Mean number of days with wind speed >= 10 m/s,4,6,,,1,A,30,0,1991,2020,,,21593,99.97,1/12/2024,4
+1000000,GOOSE A,179,Mean number of days with wind speed >= 10 m/s,5,4.5,,,1,A,30,0,1991,2020,,,22314,99.97,1/12/2024,4
+1000000,GOOSE A,179,Mean number of days with wind speed >= 10 m/s,6,3.5,,,1,A,30,0,1991,2020,,,21591,99.96,1/12/2024,4
+1000000,GOOSE A,179,Mean number of days with wind speed >= 10 m/s,7,3.5,,,1,A,30,0,1991,2020,,,22287,99.85,1/12/2024,4
+1000000,GOOSE A,179,Mean number of days with wind speed >= 10 m/s,8,3.2,,,1,A,30,0,1991,2020,,,22219,99.55,1/12/2024,4
+1000000,GOOSE A,179,Mean number of days with wind speed >= 10 m/s,9,6.2,,,1,A,30,0,1991,2020,,,21592,99.96,1/12/2024,4
+1000000,GOOSE A,179,Mean number of days with wind speed >= 10 m/s,10,5.8,,,1,A,30,0,1991,2020,,,22293,99.88,1/12/2024,4
+1000000,GOOSE A,179,Mean number of days with wind speed >= 10 m/s,11,6.7,,,1,A,30,0,1991,2020,,,21579,99.9,1/12/2024,4
+1000000,GOOSE A,179,Mean number of days with wind speed >= 10 m/s,12,7.5,,,1,A,30,0,1991,2020,,,22295,99.89,1/12/2024,4
+1000000,GOOSE A,179,Mean number of days with wind speed >= 10 m/s,13,69.7,,,1,A,30,0,1991,2020,,,262699,99.89,1/12/2024,4
+1000000,GOOSE A,180,Mean number of days with wind speed >= 20 m/s,1,0,,,1,A,30,0,1991,2020,,,22298,99.9,1/12/2024,4
+1000000,GOOSE A,180,Mean number of days with wind speed >= 20 m/s,2,0.1,,,1,A,30,0,1991,2020,,,20340,99.94,1/12/2024,4
+1000000,GOOSE A,180,Mean number of days with wind speed >= 20 m/s,3,0.1,,,1,A,30,0,1991,2020,,,22298,99.9,1/12/2024,4
+1000000,GOOSE A,180,Mean number of days with wind speed >= 20 m/s,4,0,,,1,A,30,0,1991,2020,,,21593,99.97,1/12/2024,4
+1000000,GOOSE A,180,Mean number of days with wind speed >= 20 m/s,5,0,,,1,A,30,0,1991,2020,,,22314,99.97,1/12/2024,4
+1000000,GOOSE A,180,Mean number of days with wind speed >= 20 m/s,6,0,,,1,A,30,0,1991,2020,,,21591,99.96,1/12/2024,4
+1000000,GOOSE A,180,Mean number of days with wind speed >= 20 m/s,7,0,,,1,A,30,0,1991,2020,,,22287,99.85,1/12/2024,4
+1000000,GOOSE A,180,Mean number of days with wind speed >= 20 m/s,8,0,,,1,A,30,0,1991,2020,,,22219,99.55,1/12/2024,4
+1000000,GOOSE A,180,Mean number of days with wind speed >= 20 m/s,9,0.1,,,1,A,30,0,1991,2020,,,21592,99.96,1/12/2024,4
+1000000,GOOSE A,180,Mean number of days with wind speed >= 20 m/s,10,0,,,1,A,30,0,1991,2020,,,22293,99.88,1/12/2024,4
+1000000,GOOSE A,180,Mean number of days with wind speed >= 20 m/s,11,0.1,,,1,A,30,0,1991,2020,,,21579,99.9,1/12/2024,4
+1000000,GOOSE A,180,Mean number of days with wind speed >= 20 m/s,12,0,,,1,A,30,0,1991,2020,,,22295,99.89,1/12/2024,4
+1000000,GOOSE A,180,Mean number of days with wind speed >= 20 m/s,13,0.4,,,1,A,30,0,1991,2020,,,262699,99.89,1/12/2024,4
+1000000,GOOSE A,181,Mean number of days with wind speed >= 30 m/s,1,0,,,1,A,30,0,1991,2020,,,22298,99.9,1/12/2024,4
+1000000,GOOSE A,181,Mean number of days with wind speed >= 30 m/s,2,0,,,1,A,30,0,1991,2020,,,20340,99.94,1/12/2024,4
+1000000,GOOSE A,181,Mean number of days with wind speed >= 30 m/s,3,0,,,1,A,30,0,1991,2020,,,22298,99.9,1/12/2024,4
+1000000,GOOSE A,181,Mean number of days with wind speed >= 30 m/s,4,0,,,1,A,30,0,1991,2020,,,21593,99.97,1/12/2024,4
+1000000,GOOSE A,181,Mean number of days with wind speed >= 30 m/s,5,0,,,1,A,30,0,1991,2020,,,22314,99.97,1/12/2024,4
+1000000,GOOSE A,181,Mean number of days with wind speed >= 30 m/s,6,0,,,1,A,30,0,1991,2020,,,21591,99.96,1/12/2024,4
+1000000,GOOSE A,181,Mean number of days with wind speed >= 30 m/s,7,0,,,1,A,30,0,1991,2020,,,22287,99.85,1/12/2024,4
+1000000,GOOSE A,181,Mean number of days with wind speed >= 30 m/s,8,0,,,1,A,30,0,1991,2020,,,22219,99.55,1/12/2024,4
+1000000,GOOSE A,181,Mean number of days with wind speed >= 30 m/s,9,0,,,1,A,30,0,1991,2020,,,21592,99.96,1/12/2024,4
+1000000,GOOSE A,181,Mean number of days with wind speed >= 30 m/s,10,0,,,1,A,30,0,1991,2020,,,22293,99.88,1/12/2024,4
+1000000,GOOSE A,181,Mean number of days with wind speed >= 30 m/s,11,0,,,1,A,30,0,1991,2020,,,21579,99.9,1/12/2024,4
+1000000,GOOSE A,181,Mean number of days with wind speed >= 30 m/s,12,0,,,1,A,30,0,1991,2020,,,22295,99.89,1/12/2024,4
+1000000,GOOSE A,181,Mean number of days with wind speed >= 30 m/s,13,0,,,1,A,30,0,1991,2020,,,262699,99.89,1/12/2024,4
+1000000,GOOSE A,182,Mean number of days with visibility < 50 m,1,0,,,1,A,30,0,1991,2020,,,22299,99.91,1/12/2024,4
+1000000,GOOSE A,182,Mean number of days with visibility < 50 m,2,0.1,,,1,A,30,0,1991,2020,,,20340,99.94,1/12/2024,4
+1000000,GOOSE A,182,Mean number of days with visibility < 50 m,3,0.1,,,1,A,30,0,1991,2020,,,22298,99.9,1/12/2024,4
+1000000,GOOSE A,182,Mean number of days with visibility < 50 m,4,0.1,,,1,A,30,0,1991,2020,,,21593,99.97,1/12/2024,4
+1000000,GOOSE A,182,Mean number of days with visibility < 50 m,5,0,,,1,A,30,0,1991,2020,,,22314,99.97,1/12/2024,4
+1000000,GOOSE A,182,Mean number of days with visibility < 50 m,6,0,,,1,A,30,0,1991,2020,,,21590,99.95,1/12/2024,4
+1000000,GOOSE A,182,Mean number of days with visibility < 50 m,7,0.1,,,1,A,30,0,1991,2020,,,22287,99.85,1/12/2024,4
+1000000,GOOSE A,182,Mean number of days with visibility < 50 m,8,0.2,,,1,A,30,0,1991,2020,,,22219,99.55,1/12/2024,4
+1000000,GOOSE A,182,Mean number of days with visibility < 50 m,9,0,,,1,A,30,0,1991,2020,,,21593,99.97,1/12/2024,4
+1000000,GOOSE A,182,Mean number of days with visibility < 50 m,10,0.1,,,1,A,30,0,1991,2020,,,22293,99.88,1/12/2024,4
+1000000,GOOSE A,182,Mean number of days with visibility < 50 m,11,0,,,1,A,30,0,1991,2020,,,21579,99.9,1/12/2024,4
+1000000,GOOSE A,182,Mean number of days with visibility < 50 m,12,0,,,1,A,30,0,1991,2020,,,22295,99.89,1/12/2024,4
+1000000,GOOSE A,182,Mean number of days with visibility < 50 m,13,0.7,,,1,A,30,0,1991,2020,,,262700,99.89,1/12/2024,4
+1000000,GOOSE A,183,Mean number of days with visibility < 100 m,1,0,,,1,A,30,0,1991,2020,,,22299,99.91,1/12/2024,4
+1000000,GOOSE A,183,Mean number of days with visibility < 100 m,2,0.1,,,1,A,30,0,1991,2020,,,20340,99.94,1/12/2024,4
+1000000,GOOSE A,183,Mean number of days with visibility < 100 m,3,0.1,,,1,A,30,0,1991,2020,,,22298,99.9,1/12/2024,4
+1000000,GOOSE A,183,Mean number of days with visibility < 100 m,4,0.1,,,1,A,30,0,1991,2020,,,21593,99.97,1/12/2024,4
+1000000,GOOSE A,183,Mean number of days with visibility < 100 m,5,0,,,1,A,30,0,1991,2020,,,22314,99.97,1/12/2024,4
+1000000,GOOSE A,183,Mean number of days with visibility < 100 m,6,0,,,1,A,30,0,1991,2020,,,21590,99.95,1/12/2024,4
+1000000,GOOSE A,183,Mean number of days with visibility < 100 m,7,0.1,,,1,A,30,0,1991,2020,,,22287,99.85,1/12/2024,4
+1000000,GOOSE A,183,Mean number of days with visibility < 100 m,8,0.2,,,1,A,30,0,1991,2020,,,22219,99.55,1/12/2024,4
+1000000,GOOSE A,183,Mean number of days with visibility < 100 m,9,0,,,1,A,30,0,1991,2020,,,21593,99.97,1/12/2024,4
+1000000,GOOSE A,183,Mean number of days with visibility < 100 m,10,0.1,,,1,A,30,0,1991,2020,,,22293,99.88,1/12/2024,4
+1000000,GOOSE A,183,Mean number of days with visibility < 100 m,11,0,,,1,A,30,0,1991,2020,,,21579,99.9,1/12/2024,4
+1000000,GOOSE A,183,Mean number of days with visibility < 100 m,12,0,,,1,A,30,0,1991,2020,,,22295,99.89,1/12/2024,4
+1000000,GOOSE A,183,Mean number of days with visibility < 100 m,13,0.7,,,1,A,30,0,1991,2020,,,262700,99.89,1/12/2024,4
+1000000,GOOSE A,184,Mean number of days with visibility < 1000 m,1,3.4,,,1,A,30,0,1991,2020,,,22299,99.91,1/12/2024,4
+1000000,GOOSE A,184,Mean number of days with visibility < 1000 m,2,2.9,,,1,A,30,0,1991,2020,,,20340,99.94,1/12/2024,4
+1000000,GOOSE A,184,Mean number of days with visibility < 1000 m,3,3.4,,,1,A,30,0,1991,2020,,,22298,99.9,1/12/2024,4
+1000000,GOOSE A,184,Mean number of days with visibility < 1000 m,4,2.5,,,1,A,30,0,1991,2020,,,21593,99.97,1/12/2024,4
+1000000,GOOSE A,184,Mean number of days with visibility < 1000 m,5,1.6,,,1,A,30,0,1991,2020,,,22314,99.97,1/12/2024,4
+1000000,GOOSE A,184,Mean number of days with visibility < 1000 m,6,0.5,,,1,A,30,0,1991,2020,,,21590,99.95,1/12/2024,4
+1000000,GOOSE A,184,Mean number of days with visibility < 1000 m,7,0.8,,,1,A,30,0,1991,2020,,,22287,99.85,1/12/2024,4
+1000000,GOOSE A,184,Mean number of days with visibility < 1000 m,8,0.7,,,1,A,30,0,1991,2020,,,22219,99.55,1/12/2024,4
+1000000,GOOSE A,184,Mean number of days with visibility < 1000 m,9,0.6,,,1,A,30,0,1991,2020,,,21593,99.97,1/12/2024,4
+1000000,GOOSE A,184,Mean number of days with visibility < 1000 m,10,1.9,,,1,A,30,0,1991,2020,,,22293,99.88,1/12/2024,4
+1000000,GOOSE A,184,Mean number of days with visibility < 1000 m,11,2.9,,,1,A,30,0,1991,2020,,,21579,99.9,1/12/2024,4
+1000000,GOOSE A,184,Mean number of days with visibility < 1000 m,12,3.5,,,1,A,30,0,1991,2020,,,22295,99.89,1/12/2024,4
+1000000,GOOSE A,184,Mean number of days with visibility < 1000 m,13,24.7,,,1,A,30,0,1991,2020,,,262700,99.89,1/12/2024,4
+1000000,GOOSE A,185,Lower bound of quintile 1,1,11.6,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,185,Lower bound of quintile 1,2,9.2,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,185,Lower bound of quintile 1,3,24.2,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,185,Lower bound of quintile 1,4,17.8,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,185,Lower bound of quintile 1,5,12.2,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,185,Lower bound of quintile 1,6,44.8,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,185,Lower bound of quintile 1,7,67.4,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,185,Lower bound of quintile 1,8,44.6,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,185,Lower bound of quintile 1,9,40.4,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,185,Lower bound of quintile 1,10,28.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,185,Lower bound of quintile 1,11,19.5,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,185,Lower bound of quintile 1,12,16.2,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,186,Upper bound of quintile 1,1,29.3,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,186,Upper bound of quintile 1,2,31.2,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,186,Upper bound of quintile 1,3,39.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,186,Upper bound of quintile 1,4,40.4,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,186,Upper bound of quintile 1,5,45.3,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,186,Upper bound of quintile 1,6,60,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,186,Upper bound of quintile 1,7,80,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,186,Upper bound of quintile 1,8,71.9,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,186,Upper bound of quintile 1,9,55.8,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,186,Upper bound of quintile 1,10,56.3,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,186,Upper bound of quintile 1,11,52,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,186,Upper bound of quintile 1,12,37.4,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,187,Upper bound of quintile 2,1,58.4,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,187,Upper bound of quintile 2,2,49.2,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,187,Upper bound of quintile 2,3,58.1,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,187,Upper bound of quintile 2,4,55.8,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,187,Upper bound of quintile 2,5,62.4,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,187,Upper bound of quintile 2,6,67.3,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,187,Upper bound of quintile 2,7,94.2,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,187,Upper bound of quintile 2,8,93.2,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,187,Upper bound of quintile 2,9,69.7,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,187,Upper bound of quintile 2,10,83,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,187,Upper bound of quintile 2,11,63.7,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,187,Upper bound of quintile 2,12,46.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,188,Upper bound of quintile 3,1,74.7,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,188,Upper bound of quintile 3,2,67,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,188,Upper bound of quintile 3,3,68.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,188,Upper bound of quintile 3,4,67.6,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,188,Upper bound of quintile 3,5,75.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,188,Upper bound of quintile 3,6,91,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,188,Upper bound of quintile 3,7,120.3,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,188,Upper bound of quintile 3,8,117.6,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,188,Upper bound of quintile 3,9,91.4,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,188,Upper bound of quintile 3,10,95.9,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,188,Upper bound of quintile 3,11,78.3,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,188,Upper bound of quintile 3,12,62.2,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,189,Upper bound of quintile 4,1,94.6,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,189,Upper bound of quintile 4,2,77.6,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,189,Upper bound of quintile 4,3,85.1,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,189,Upper bound of quintile 4,4,83.5,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,189,Upper bound of quintile 4,5,101,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,189,Upper bound of quintile 4,6,106.2,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,189,Upper bound of quintile 4,7,137.6,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,189,Upper bound of quintile 4,8,132.1,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,189,Upper bound of quintile 4,9,121.3,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,189,Upper bound of quintile 4,10,115.4,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,189,Upper bound of quintile 4,11,95.6,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,189,Upper bound of quintile 4,12,90.6,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,190,Upper bound of quintile 5,1,142.3,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,190,Upper bound of quintile 5,2,100.9,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,190,Upper bound of quintile 5,3,116.2,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,190,Upper bound of quintile 5,4,154.4,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,190,Upper bound of quintile 5,5,144.4,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,190,Upper bound of quintile 5,6,162.6,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,190,Upper bound of quintile 5,7,187.8,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,190,Upper bound of quintile 5,8,197.6,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,190,Upper bound of quintile 5,9,152.6,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,190,Upper bound of quintile 5,10,168,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,190,Upper bound of quintile 5,11,162,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,190,Upper bound of quintile 5,12,174,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,191,Mean number of days with maximum temperature >= 30°C,1,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,191,Mean number of days with maximum temperature >= 30°C,2,0,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,191,Mean number of days with maximum temperature >= 30°C,3,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,191,Mean number of days with maximum temperature >= 30°C,4,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,191,Mean number of days with maximum temperature >= 30°C,5,0.1,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,191,Mean number of days with maximum temperature >= 30°C,6,0.9,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,191,Mean number of days with maximum temperature >= 30°C,7,1.4,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,191,Mean number of days with maximum temperature >= 30°C,8,1.4,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,191,Mean number of days with maximum temperature >= 30°C,9,0.2,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,191,Mean number of days with maximum temperature >= 30°C,10,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,191,Mean number of days with maximum temperature >= 30°C,11,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,191,Mean number of days with maximum temperature >= 30°C,12,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,191,Mean number of days with maximum temperature >= 30°C,13,4,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4
+1000000,GOOSE A,192,Mean number of days with maximum temperature >= 35°C,1,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,192,Mean number of days with maximum temperature >= 35°C,2,0,,,1,A,30,0,1991,2020,,,848,100,1/12/2024,4
+1000000,GOOSE A,192,Mean number of days with maximum temperature >= 35°C,3,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,192,Mean number of days with maximum temperature >= 35°C,4,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,192,Mean number of days with maximum temperature >= 35°C,5,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,192,Mean number of days with maximum temperature >= 35°C,6,0.1,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,192,Mean number of days with maximum temperature >= 35°C,7,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,192,Mean number of days with maximum temperature >= 35°C,8,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,192,Mean number of days with maximum temperature >= 35°C,9,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,192,Mean number of days with maximum temperature >= 35°C,10,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,192,Mean number of days with maximum temperature >= 35°C,11,0,,,1,A,30,0,1991,2020,,,900,100,1/12/2024,4
+1000000,GOOSE A,192,Mean number of days with maximum temperature >= 35°C,12,0,,,1,A,30,0,1991,2020,,,930,100,1/12/2024,4
+1000000,GOOSE A,192,Mean number of days with maximum temperature >= 35°C,13,0.1,,,1,A,30,0,1991,2020,,,10958,100,1/12/2024,4

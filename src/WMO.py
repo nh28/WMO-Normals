@@ -1,24 +1,28 @@
 import pandas as pd
-import Elements
-import StationList 
+from Elements import Elements
+from StationList import StationList
 
 def main():
-    wmo_data_set_path = input("Please enter the path to the WMO Data Set: ")
+    wmo_data_set_path = r"C:\Users\harschn\Documents\PortableGit\WMO-Normals\resources\goose.csv"
+    #input("Please enter the path to the WMO Data Set: ")
     # "C:\Users\nhars\WMO-Normals\resources\WMO.csv"
     wmo_data_set_df = pd.read_csv(wmo_data_set_path)
 
-    template_path = input("Please enter the path to the WMO template")
+    template_path = r"C:\Users\harschn\Documents\PortableGit\WMO-Normals\resources\Copy of WMO_Normals_csv_Template_primary_secondary.csv"
+    #input("Please enter the path to the WMO template")
     template_df = pd.read_csv(template_path)
-    dim_row = input("Please indicate what row the station header ends")
-    dim_col = input("Please indicate what col the station header ends")
+    dim_row = 13 # input("Please indicate what row the station header ends")
+    dim_col = 3 #input("Please indicate what col the station header ends")
 
-    station_list_path = input("Please enter the Station List")
+    station_list_path = r"C:\Users\harschn\Documents\PortableGit\WMO-Normals\resources\StationList.csv"
+    #input("Please enter the Station List")
     station_list_df = pd.read_csv(station_list_path)
 
-    normal_parameters_path = input("Please enter the path to the Normal ID to WMO Parameter ID")
+    normal_parameters_path = r"C:\Users\harschn\Documents\PortableGit\WMO-Normals\resources\NormalID_to_WMOParameterID.csv"
+    #input("Please enter the path to the Normal ID to WMO Parameter ID")
     normals_parameters_df = pd.read_csv(normal_parameters_path)
 
-    gen_station = StationList(template_df, station_list_df)
+    gen_station = StationList(template_df, station_list_df,"")
     gen_station.fill_station_indices(dim_row, dim_col)
 
     all_stations = wmo_data_set_df.groupby('ENG_STN_NAME')
@@ -27,9 +31,10 @@ def main():
         # fill the information about the station
         station_temp_df = template_df.copy()
         one_station = StationList(station_temp_df, station_list_df, station_name)
-        wmo_id = one_station.fill_station_data() #might need to return the data frame instead
+        # wmo_id = one_station.fill_station_data() #might need to return the data frame instead
+        # print(wmo_id)
 
-        el = Elements(station_temp_df, normals_parameters_df)
+        """el = Elements(station_temp_df, normals_parameters_df)
         all_elements = station_df.groupby("NORMAL_ID")
         for id, element_station_df in all_elements:
             row = el.find_element_row(id)
@@ -45,7 +50,7 @@ def main():
         #create the csv file 
         one_station_path = "path" #enter the path here with the station name
         station_temp_df.to_csv(one_station_path, index=False)
-        print("station Name created") #enter the station name here
+        print("station Name created") #enter the station name here"""
 
 
 if __name__ == "__main__":
