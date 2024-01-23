@@ -30,7 +30,7 @@ class StationList:
                     translation_table = str.maketrans({"'": "|", '"': "|", "°": "|"})
                     value = value.translate(translation_table)
 
-                self.template.loc[StationList.station_indices_dict[key][1], 
+                self.template.loc[StationList.station_indices_dict[key][1] + 1, 
                                   StationList.station_indices_dict[key][2]] = value
                     
 
