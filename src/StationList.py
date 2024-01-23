@@ -21,7 +21,7 @@ class StationList:
     def fill_station_data(self):
         self.template.at[5, 1] = "CANADA"
         self.template.at[6, 1] = self.station_name
-
+        wmo
         row = self.find_station_row()
         for key, value in StationList.station_indices_dict.items():
             if value.size() != 0: #later add if the station does not exist
@@ -32,5 +32,11 @@ class StationList:
 
                 self.template.loc[StationList.station_indices_dict[key][1] + 1, 
                                   StationList.station_indices_dict[key][2]] = value
+                
+                if (key == "WMO-ID"):
+                    wmo = value
+
+        return wmo
+             
                     
 
