@@ -4,21 +4,19 @@ from Elements import Elements
 from StationList import StationList
 
 def main():
-    wmo_data_set_path = r"C:\Users\harschn\Documents\PortableGit\WMO-Normals\resources\WMO_Normals_dataquit.csv"
-    #input("Please enter the path to the WMO Data Set: ")
-    # "C:\Users\nhars\WMO-Normals\resources\WMO.csv"
+    wmo_data_set_path = input("Please enter the path to the WMO Data Set: ").replace('"', '')
     wmo_data_set_df = pd.read_csv(wmo_data_set_path)
 
-    template_path = r"C:\Users\harschn\Documents\PortableGit\WMO-Normals\resources\template.csv"
-    #input("Please enter the path to the WMO template")
+    template_path = input("Please enter the path to the WMO template: ").replace('"', '')
     template_df = pd.read_csv(template_path)
 
-    station_list_path = r"C:\Users\harschn\Documents\PortableGit\WMO-Normals\resources\StationList.csv"
-    #input("Please enter the Station List")
+    station_list_path = input("Please enter the Station List: ").replace('"', '')
     station_list_df = pd.read_csv(station_list_path)
+    dim_row = 13
+    
+    """ UNCOMMENT IF WANT THIS FEATURE
     gen_station = StationList(template_df, station_list_df, "")
     bool = ""
-    dim_row = 13
     while (bool != "quit"):
         station_key = input("Please enter any other information you need to input for a station (NOT Name, Country, WMO-ID, WIGOS-ID, Lat, Long, Elevation)" + 
                             "\nEnter it in the format template_name:station_list_name:column_on_station_list" + 
@@ -27,18 +25,17 @@ def main():
             bool = station_key.lower()
         else:
             gen_station.add_names_key(station_key)
-            dim_row = input("Please indicate what row the station header ends")
+            dim_row = input("Please indicate what row the station header ends: ")
             gen_station.change_dim_row(dim_row)
-            dim_col = input("Please indicate what col the station header ends")
+            dim_col = input("Please indicate what col the station header ends: ")
             gen_station.change_dim_col(dim_col)
         
+    """
 
-    normal_parameters_path = r"C:\Users\harschn\Documents\PortableGit\WMO-Normals\resources\NormalID_to_WMOParameterID.csv"
-    #input("Please enter the path to the Normal ID to WMO Parameter ID")
+    normal_parameters_path = input("Please enter the path to the Normal ID to WMO Parameter ID: ").replace('"', '')
     normals_parameters_df = pd.read_csv(normal_parameters_path)
 
-    path = r"C:\Users\harschn\Documents\PortableGit\WMO-Normals\resources"
-    #input("Enter the path you want all the files to output to\n")
+    path = input("Enter the path you want all the files to output to: ").replace('"', '')
 
     all_stations = wmo_data_set_df.groupby('ENG_STN_NAME')
 
