@@ -1,24 +1,28 @@
 class Elements:
     
-    def __init__(self, template, normals_parameters,):
+    def __init__(self, template, normals_parameters):
         self.template = template
         self.normals_parameters = normals_parameters
 
     def find_element_row(self, id):
-        for num in range(2,self.normals_parameters.value_counts()):
-            if id == self.normals_parameters.loc[num, 0]:
+        num = 1;
+        while (num < len(self.normals_parameters)):
+            if str(id) == self.normals_parameters.iloc[num, 0]:
                 return num   
+            num+=1
         return -1
-        #split up quintiles
     
-    def find_wmo_name(self, wmo_name, dim_col):
-        for num in range(dim_col, self.template.value_counts()):
-            if (wmo_name == self.template.loc[num, 1]):
-                return num + 3
+    def find_wmo_name(self, wmo_name, dim_row):
+        num = dim_row;
+        while (num < len(self.template)):
+            if wmo_name == self.template.iloc[num, 1]:
+                return num   
+            num+=1
+        return -1
             
     def fill_elements(self, wmo_id, wmo_parameter, row_index, calculation, element_station_df):
-        col_in_data_set
-        if calculation in ["Sum", "Count", "Mean", "Max", "Min"]:
+        col_in_data_set = 0
+        if calculation in ["Sum", "Count", "Mean", "Max", "Min", "Q0", "Q1", "Q2", "Q3", "Q4", "Q5"]:
             col_in_data_set = 5
         if calculation in ["MinDate", "MaxDate"]:
             col_in_data_set = 6
@@ -26,16 +30,16 @@ class Elements:
             col_in_data_set = 10
         
         col_in_temp = 4
-        self.template.loc[row_index, col_in_temp - 4] = wmo_id
-        self.template.loc[row_index, col_in_temp - 3] = wmo_parameter
-        self.template.loc[row_index, col_in_temp - 2] = calculation
-        self.template.loc[row_index, col_in_temp - 1] = self.get_calculation_num(calculation);
-        for value in element_station_df[col_in_data_set].items():
-            self.template.loc[row_index, col_in_temp] = value
+        self.template.iloc[row_index, (col_in_temp - 4)] = wmo_id
+        self.template.iloc[row_index, (col_in_temp - 3)] = wmo_parameter
+        self.template.iloc[row_index, (col_in_temp - 2)] = calculation
+        self.template.iloc[row_index, (col_in_temp - 1)] = self.get_calculation_num(calculation);
+        for index, value in element_station_df.iloc[:, col_in_data_set].items():
+            self.template.iloc[row_index, col_in_temp] = value
             col_in_temp+=1
 
 
-    def get_calculation_num(calculation):
+    def get_calculation_num(self, calculation):
         if calculation == "Mean":
             return 1
         if calculation == "Max":

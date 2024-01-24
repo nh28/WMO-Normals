@@ -28,7 +28,7 @@ class StationList:
 
     def find_station_row(self):
         num = 0;
-        while (self.station_list.iloc[num, 1] is not None):
+        while (num < len(self.station_list) and self.station_list.iloc[num, 1] is not None):
             if self.station_name == self.station_list.iloc[num, 1]:
                 return num   
             num+=1
