@@ -5,9 +5,9 @@ class Elements:
         self.normals_parameters = normals_parameters
 
     def find_element_row(self, id):
-        num = 1;
+        num = 0;
         while (num < len(self.normals_parameters)):
-            if str(id) == self.normals_parameters.iloc[num, 0]:
+            if id == self.normals_parameters.iloc[num, 0]:
                 return num   
             num+=1
         return -1
