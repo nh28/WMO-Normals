@@ -81,19 +81,13 @@ class Template:
         df.columns = df.iloc[0]
         return df[1:].reset_index(drop = True)
 
-    """ IN PROGRESS
     @staticmethod
     def modify_template(template_df, user):
         info = user.split(':')
-        if info[3] == "insert":
-            df1 = template_df.iloc[:int(info[1])]
-            df2 = template_df.iloc[int(info[1]):]
-            df2 = df2.append(pd.DataFrame({"", ""}), ignore_index = True)
-            template_df = pd.concat([df1, df2], ignore_index=True)
-            template_df.at[info[1], info[2]] = info[0]
+        if template_df.iloc[int(info[1]), int(info[2])] is None or pd.isna(template_df.iloc[int(info[1]), int(info[2])]):
+            template_df.iloc[int(info[1]), int(info[2])] = info[0]
         else:
-            template_df.at[info[1], info[2]] = info[0]
-    """
+            print("There is already a value here: " + str(template_df.iloc[int(info[1]), int(info[2])]))
 
 
             
