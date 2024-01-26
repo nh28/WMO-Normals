@@ -5,63 +5,47 @@ from StationList import StationList
 from Template import Template
 
 def main():
-    while True:
-        try:
-            wmo_data_set_path = input("Please enter the path to the WMO Data Set: ").replace('"', '')
-            wmo_data_set_df = pd.read_csv(wmo_data_set_path)
-            break
-        except FileNotFoundError:
-            print("File not found. Please enter a valid path.")
-        except pd.errors.EmptyDataError:
-            print("The file is empty. Please enter a valid path.")
-        except Exception as e:
-            print("An error occurred:", e)
-    
-    while True:
-        try:
-            station_list_path = input("Please enter the path to the Station List: ").replace('"', '')
-            station_list_df = pd.read_csv(station_list_path)
-            break
-        except FileNotFoundError:
-            print("File not found. Please enter a valid path.")
-        except pd.errors.EmptyDataError:
-            print("The file is empty. Please enter a valid path.")
-        except Exception as e:
-            print("An error occurred:", e)
+
+    try:
+        folder_path_in = os.path.abspath("Input/")
+        folder_path_out = os.path.abspath("Output/")
+
+        wmo_data_set_path = os.path.join(folder_path_in, "goose.csv")
+        wmo_data_set_df = pd.read_csv(wmo_data_set_path)
         
-    
-    while True:
-        try:
-            normal_parameters_path = input("Please enter the path to the Normal ID to WMO Parameter ID: ").replace('"', '')
-            normals_parameters_df = pd.read_csv(normal_parameters_path, header = 1)
-            break
-        except FileNotFoundError:
-            print("File not found. Please enter a valid path.")
-        except pd.errors.EmptyDataError:
-            print("The file is empty. Please enter a valid path.")
-        except Exception as e:
+        station_list_path = os.path.join(folder_path_in, "StationList.csv")
+        station_list_df = pd.read_csv(station_list_path)
+
+        normal_parameters_path = os.path.join(folder_path_in, "NormalID_to_WMOParameterID.csv")
+        normals_parameters_df = pd.read_csv(normal_parameters_path, header = 1)
+
+    except FileNotFoundError:
+            print("Make sure files are named correctly.")
+    except pd.errors.EmptyDataError:
+            print("Make sure that files have data stored in them.")
+    except Exception as e:
             print("An error occurred:", e)
-    
-    path = input("Enter the path you want all the files to output to: ").replace('"', '')
 
     template_df = Template.create_template(pd.DataFrame(), normals_parameters_df)
 
     bool = ""
     while (bool != "quit"):
         modification = input("\nPlease enter any other information you need to input for a station (NOT Name, Country, WMO-ID, WIGOS-ID, Lat, Long, Elevation)" + 
-                            "\nEnter it in the format parameter_name:row:col" + 
+                            "\nEnter it in the format station_parameter_name:template_parameter_name:row:col" + 
                             "\nTo exit, enter quit\n")
         if (modification.lower() == "quit"):
             bool = modification.lower()
         else:
             Template.modify_template(template_df, modification)
+    gen_station = StationList(template_df, station_list_df)
+    gen_station.fill_key()
     
-    all_stations = wmo_data_set_df.groupby('ENG_STN_NAME')
-    for station_name, station_df in all_stations:
+    all_stations = wmo_data_set_df.groupby('STN_ID')
+    for station_id, station_df in all_stations:
         
         this_station_template_df = template_df.copy()
-        single_station = StationList(this_station_template_df, station_list_df, station_name)
-        wmo_id = single_station.fill_station_data() 
+        single_station = StationList(this_station_template_df, station_list_df, station_id)
+        name_wmo = single_station.fill_station_data() 
 
         elements_parameters = Elements(this_station_template_df, normals_parameters_df)
 
@@ -69,30 +53,26 @@ def main():
         quintile_count = 0
         for id, element_df in all_elements:
             row_in_normals_parameters = elements_parameters.find_element_row(id) 
-            wmo_name = normals_parameters_df.iloc[row_in_normals_parameters, 3]
-            wmo_parameter = normals_parameters_df.iloc[row_in_normals_parameters, 2]
-            row_in_station_template = elements_parameters.find_wmo_name(wmo_name, 13) + 3
+            wmo_element_name = normals_parameters_df.iloc[row_in_normals_parameters]["Parameter Name"]
+            wmo_parameter = normals_parameters_df.iloc[row_in_normals_parameters]["Parameter Code"]
+            row_in_station_template = elements_parameters.find_wmo_name(wmo_element_name) + 3
 
             if (id in [185, 186, 187, 188, 189, 190]):
                 row_in_station_template += quintile_count
                 quintile_count+=1
-
-            col_in_station_temp = 5
+            
+            #fix
+            col_in_station_temp = normals_parameters_df.columns.get_loc("Calculation Name")
             while (col_in_station_temp < len(normals_parameters_df.iloc[0, :]) and normals_parameters_df.iloc[row_in_normals_parameters, col_in_station_temp] != None 
                    and not pd.isna(normals_parameters_df.iloc[row_in_normals_parameters, col_in_station_temp])):
                 calculation = normals_parameters_df.iloc[row_in_normals_parameters, col_in_station_temp] 
                 col_in_station_temp+=1
-                elements_parameters.fill_elements(wmo_id, wmo_parameter, row_in_station_template, calculation, element_df)
+                elements_parameters.fill_elements(name_wmo[1], wmo_parameter, row_in_station_template, calculation, element_df)
                 row_in_station_template+=1
-         
-        while True:
-            try:
-                one_station_path = os.path.join(path, station_name + ".csv")
-                this_station_template_df.to_csv(one_station_path, index=False)
-                print(station_name + " created") 
-                break
-            except Exception as e:
-                path = input("An error occurred while constructing the file path, please paste a valid path")
+        print(name_wmo[1]) 
+        one_station_path = os.path.join(folder_path_out, "1991-2020_Normals_Canada_" + name_wmo[0] + ".csv")
+        this_station_template_df.to_csv(one_station_path, index=False)
+        print("test")
 
 
 if __name__ == "__main__":

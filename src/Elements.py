@@ -12,8 +12,8 @@ class Elements:
             num+=1
         return -1
     
-    def find_wmo_name(self, wmo_name, dim_row):
-        num = dim_row;
+    def find_wmo_name(self, wmo_name):
+        num = 0;
         while (num < len(self.template)):
             if wmo_name == self.template.iloc[num, 1]:
                 return num   

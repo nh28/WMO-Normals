@@ -1,5 +1,7 @@
 import pandas as pd
 
+from StationList import StationList
+
 
 class Template:
 
@@ -73,19 +75,21 @@ class Template:
                 row_index += 4
 
             if (row["Parameter Code"] == 7):
-                df.at[(row_index + 1), 0] = "Secondary and Other Climatological Surface Parameters (add as needed)"
-                df.at[(row_index + 2), 0] = ""
+                df.at[(row_index + 1), 0] = ""
+                df.at[(row_index + 2), 0] = "Secondary and Other Climatological Surface Parameters (add as needed)"
                 df.at[(row_index + 3), 0] = ""
-                row_index += 4
+                df.at[(row_index + 4), 0] = ""
+                row_index += 5
 
         df.columns = df.iloc[0]
         return df[1:].reset_index(drop = True)
 
     @staticmethod
-    def modify_template(template_df, user):
-        info = user.split(':')
-        if template_df.iloc[int(info[1]), int(info[2])] is None or pd.isna(template_df.iloc[int(info[1]), int(info[2])]):
-            template_df.iloc[int(info[1]), int(info[2])] = info[0]
+    def modify_template(template_df, modification):
+        info = modification.split(':')
+        if template_df.iloc[int(info[2]), int(info[3])] is None or pd.isna(template_df.iloc[int(info[2]), int(info[3])]):
+            template_df.iloc[int(info[2]), int(info[3])] = info[1]
+            StationList.names_key[info[1]] = info[0]
         else:
             print("There is already a value here: " + str(template_df.iloc[int(info[1]), int(info[2])]))
 
