@@ -21,22 +21,26 @@ class Elements:
         return -1
             
     def fill_elements(self, wmo_id, wmo_parameter, row_index, calculation, element_station_df):
-        col_in_data_set = 0
+        col_in_data_set = ""
         if calculation in ["Sum", "Count", "Mean", "Max", "Min", "Q0", "Q1", "Q2", "Q3", "Q4", "Q5"]:
-            col_in_data_set = 5
+            col_in_data_set = "VALUE"
         if calculation in ["MinDate", "MaxDate"]:
-            col_in_data_set = 6
+            col_in_data_set = "FIRST_OCCURRENCE_DATE"
         if calculation == "NOY":
-            col_in_data_set = 10
+            col_in_data_set = "YEAR_COUNT_NORMAL_PERIOD"
         
-        col_in_temp = 4
-        self.template.iloc[row_index, (col_in_temp - 4)] = wmo_id
-        self.template.iloc[row_index, (col_in_temp - 3)] = wmo_parameter
-        self.template.iloc[row_index, (col_in_temp - 2)] = calculation
-        self.template.iloc[row_index, (col_in_temp - 1)] = self.get_calculation_num(calculation);
-        for index, value in element_station_df.iloc[:, col_in_data_set].items():
-            self.template.iloc[row_index, col_in_temp] = value
-            col_in_temp+=1
+        col_in_temp = 3
+        self.template.iloc[row_index, (col_in_temp - 3)] = wmo_id
+        self.template.iloc[row_index, (col_in_temp - 2)] = wmo_parameter
+        self.template.iloc[row_index, (col_in_temp - 1)] = calculation
+        self.template.iloc[row_index, (col_in_temp)] = self.get_calculation_num(calculation);
+
+        months = element_station_df.groupby("MONTH")
+        for month, month_df in months:
+            value = month_df[col_in_data_set]
+            col = col_in_temp + int(month)
+            self.template.iloc[row_index, col] = value.iloc[0]
+        
 
 
     def get_calculation_num(self, calculation):
