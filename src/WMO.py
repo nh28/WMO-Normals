@@ -5,39 +5,7 @@ from StationList import StationList
 from Template import Template
 
 @staticmethod
-def convert():
-
-    try:
-        folder_path_in = os.path.abspath("Input/")
-        folder_path_out = os.path.abspath("Output/")
-
-        wmo_data_set_path = os.path.join(folder_path_in, "1991-2020_WMO_Normals_Data.csv")
-        wmo_data_set_df = pd.read_csv(wmo_data_set_path)
-        
-        station_list_path = os.path.join(folder_path_in, "StationList.csv")
-        station_list_df = pd.read_csv(station_list_path)
-
-        normal_parameters_path = os.path.join(folder_path_in, "NormalID_to_WMOParameterID.csv")
-        normals_parameters_df = pd.read_csv(normal_parameters_path, header = 1)
-
-    except FileNotFoundError:
-            print("Make sure files are named correctly.")
-    except pd.errors.EmptyDataError:
-            print("Make sure that files have data stored in them.")
-    except Exception as e:
-            print("An error occurred:", e)
-
-    template_df = Template.create_template(pd.DataFrame(), normals_parameters_df)
-
-    bool = ""
-    while (bool != "quit"):
-        modification = input("\nPlease enter any other information you need to input for a station (NOT Name, Country, WMO-ID, WIGOS-ID, Lat, Long, Elevation)" + 
-                            "\nEnter it in the format station_parameter_name:template_parameter_name:row:col" + 
-                            "\nTo exit, enter quit\n")
-        if (modification.lower() == "quit"):
-            bool = modification.lower()
-        else:
-            Template.modify_template(template_df, modification)
+def convert(wmo_data_set_df, template_df, station_list_df, normals_parameters_df, folder_path_out):
     gen_station = StationList(template_df, station_list_df)
     gen_station.fill_key()
     

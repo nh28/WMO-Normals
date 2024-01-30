@@ -10,7 +10,7 @@ folder_path_out = os.path.abspath("Output/")
 
 def check_data():
     try:
-        wmo_data_set_path = os.path.join(folder_path_in, "1991-2020_WMO_Normals_Data.csv")
+        wmo_data_set_path = os.path.join(folder_path_in, "goose.csv")
         wmo_data_set_df = pd.read_csv(wmo_data_set_path)
         return wmo_data_set_df, None  
     
@@ -92,8 +92,7 @@ while True:
         if(event == "Download Files"):
             for i in range(101):
                 window["-PROGRESS-"].update_bar(i)
-                time.sleep(0.05)
-                #WMO.convert()
+                WMO.convert(wmo_data, template_df, wmo_station, wmo_parameters, folder_path_out)
             sg.popup("Complete. You can find the files in " + folder_path_out)
             window["-PROGRESS-"].update_bar(0)
     else:
