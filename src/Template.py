@@ -85,13 +85,14 @@ class Template:
         return df[1:].reset_index(drop = True)
 
     @staticmethod
-    def modify_template(template_df, modification):
-        info = modification.split(':')
-        if template_df.iloc[int(info[2]), int(info[3])] is None or pd.isna(template_df.iloc[int(info[2]), int(info[3])]):
-            template_df.iloc[int(info[2]), int(info[3])] = info[1]
-            StationList.names_key[info[1]] = info[0]
-        else:
-            print("There is already a value here: " + str(template_df.iloc[int(info[1]), int(info[2])]))
+    def modify_template(template_df, station_parameter_name, template_parameter_name, row, col):
+        if int(row) < len(template_df) and int(col) < len(template_df.columns):
+            if template_df.iloc[int(row), int(col)] is None or pd.isna(template_df.iloc[int(row), int(col)]):
+                template_df.iloc[int(row), int(col)] = template_parameter_name
+                StationList.name_key[template_parameter_name] = station_parameter_name
+                return 'pass'
+            return 'Value already here'
+        return 'Out of Bounds'
 
 
             
