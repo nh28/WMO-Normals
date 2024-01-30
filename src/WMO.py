@@ -10,7 +10,7 @@ def main():
         folder_path_in = os.path.abspath("Input/")
         folder_path_out = os.path.abspath("Output/")
 
-        wmo_data_set_path = os.path.join(folder_path_in, "goose.csv")
+        wmo_data_set_path = os.path.join(folder_path_in, "1991-2020_WMO_Normals_Data.csv")
         wmo_data_set_df = pd.read_csv(wmo_data_set_path)
         
         station_list_path = os.path.join(folder_path_in, "StationList.csv")
@@ -72,6 +72,7 @@ def main():
                 row_in_station_template+=1
 
         one_station_path = os.path.join(folder_path_out, "1991-2020_Normals_Canada_" + name_wmo[0] + ".csv")
+        os.makedirs(os.path.dirname(one_station_path), exist_ok=True)
         this_station_template_df.to_csv(one_station_path, index=False)
 
 
