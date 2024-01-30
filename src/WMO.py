@@ -41,6 +41,7 @@ def main():
     gen_station.fill_key()
     
     all_stations = wmo_data_set_df.groupby('STN_ID')
+    print("test")
     for station_id, station_df in all_stations:
         
         this_station_template_df = template_df.copy()
