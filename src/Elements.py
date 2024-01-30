@@ -7,7 +7,7 @@ class Elements:
     def find_element_row(self, id):
         num = 0;
         while (num < len(self.normals_parameters)):
-            if id == self.normals_parameters.iloc[num, 0]:
+            if id == self.normals_parameters.iloc[num]["Normal ID"]:
                 return num   
             num+=1
         return -1
@@ -30,6 +30,7 @@ class Elements:
             col_in_data_set = "YEAR_COUNT_NORMAL_PERIOD"
         
         col_in_temp = 3
+
         self.template.iloc[row_index, (col_in_temp - 3)] = wmo_id
         self.template.iloc[row_index, (col_in_temp - 2)] = wmo_parameter
         self.template.iloc[row_index, (col_in_temp - 1)] = calculation

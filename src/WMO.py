@@ -10,7 +10,7 @@ def main():
         folder_path_in = os.path.abspath("Input/")
         folder_path_out = os.path.abspath("Output/")
 
-        wmo_data_set_path = os.path.join(folder_path_in, "1991-2020_WMO_Normals_Data.csv")
+        wmo_data_set_path = os.path.join(folder_path_in, "goose.csv")
         wmo_data_set_df = pd.read_csv(wmo_data_set_path)
         
         station_list_path = os.path.join(folder_path_in, "StationList.csv")
@@ -60,15 +60,17 @@ def main():
             if (id in [185, 186, 187, 188, 189, 190]):
                 row_in_station_template += quintile_count
                 quintile_count+=1
-            
-            #fix
-            col_in_station_temp = normals_parameters_df.columns.get_loc("Calculation Name")
-            while (col_in_station_temp < len(normals_parameters_df.iloc[0, :]) and normals_parameters_df.iloc[row_in_normals_parameters, col_in_station_temp] != None 
-                   and not pd.isna(normals_parameters_df.iloc[row_in_normals_parameters, col_in_station_temp])):
-                calculation = normals_parameters_df.iloc[row_in_normals_parameters, col_in_station_temp] 
-                col_in_station_temp+=1
+
+            #Warning: assumes that there are a max of two calculations possible
+            col_in_parameter = normals_parameters_df.columns.get_loc("Calculation Name")
+            limit = col_in_parameter + 2
+            while (col_in_parameter < limit and normals_parameters_df.iloc[row_in_normals_parameters, col_in_parameter] != None 
+                   and not pd.isna(normals_parameters_df.iloc[row_in_normals_parameters, col_in_parameter])):
+                calculation = normals_parameters_df.iloc[row_in_normals_parameters, col_in_parameter] 
+                col_in_parameter+=1
                 elements_parameters.fill_elements(name_wmo[1], wmo_parameter, row_in_station_template, calculation, element_df)
                 row_in_station_template+=1
+
         one_station_path = os.path.join(folder_path_out, "1991-2020_Normals_Canada_" + name_wmo[0] + ".csv")
         this_station_template_df.to_csv(one_station_path, index=False)
 
