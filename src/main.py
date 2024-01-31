@@ -46,8 +46,26 @@ def check_parameters():
         return None, "Make sure NormalID_to_WMOParameterID.csv has data stored in it."
     except Exception as e:
         return None, f"An error occurred: {str(e)}"
+
+def show_progress(wmo_data, template_df, wmo_station, wmo_parameters, folder_path_out):
+    layout = [
+        [sg.Text("Download starting...You will not be able to close this window until the download is complete.")],
+        [sg.Text('Progress:')],
+        [sg.ProgressBar(100, orientation='h', size=(20, 20), key='-PROGRESS-')]
+    ]
+
+    window = sg.Window('Progress', layout, finalize=True)
+    progress_bar = window['-PROGRESS-']
+    window.disable()
+
+    for i in range(101):
+        WMO.convert(wmo_data, template_df, wmo_station, wmo_parameters, folder_path_out)
+        progress_bar.update_bar(i)
     
-layout = [[sg.Text("WMO Normals Reformatter")],
+    window.close()
+
+sg.theme('Light Green 1') 
+layout = [[sg.Text('WMO Normals Reformatter', justification='center', size=(20, 1), font=('Arial', 12, 'bold'), enable_events=True)],
             [sg.Text("Please enter any other information you need to input for a station (NOT Name, Country, WMO-ID, WIGOS-ID, Lat, Long, Elevation)" + 
                             "\nEnter it in the format station_parameter_name:template_parameter_name:row:col")],
             [sg.Text("Station Parameter Name: "), sg.Input(key = '-IN1-')],
@@ -55,8 +73,7 @@ layout = [[sg.Text("WMO Normals Reformatter")],
             [sg.Text("Row in Template: "), sg.Input(key = "-IN3-")],
             [sg.Text("Column in Template: "), sg.Input(key = "-IN4-")],
             [sg.Button("Add to Template")],
-            [sg.Button("Download Files"), sg.Text('Progress:'), sg.ProgressBar(100, orientation='h', size=(20, 20), key='-PROGRESS-')],
-            [sg.Exit()],]
+            [sg.Button("Download Files"), sg.Exit()],]
 
 window = sg.Window("WMO Normals Reformatter", layout)
 
@@ -90,11 +107,11 @@ while True:
                 sg.popup_error("Please enter values in all the fields.")
 
         if(event == "Download Files"):
-            for i in range(101):
-                window["-PROGRESS-"].update_bar(i)
-                WMO.convert(wmo_data, template_df, wmo_station, wmo_parameters, folder_path_out)
+            window.disable()
+            show_progress(wmo_data, template_df, wmo_station, wmo_parameters, folder_path_out)
             sg.popup("Complete. You can find the files in " + folder_path_out)
-            window["-PROGRESS-"].update_bar(0)
+            window.enable()
+           
     else:
         if (error_message1 is not None):
             sg.popup_error(error_message1)
